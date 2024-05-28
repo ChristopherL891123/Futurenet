@@ -1,0 +1,71 @@
+{
+    "a": [
+        {
+            "filename": "KMeans_11.pkl",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6394669296733642,
+            "target": "",
+            "dataset": "ABC.csv",
+            "date": "10/05/2024 00:32:32",
+            "md5": "c887484c1ebb312daf1a17492b0041d6"
+        },
+        {
+            "filename": "SpectralClustering_23.pkl",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.4842409660066731,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "10/05/2024 00:34:45",
+            "md5": "c304dd5159ae594b4b8594ecc2b3d7c9"
+        },
+        {
+            "filename": "KMeans_12.pkl",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6394669296733642,
+            "target": "",
+            "dataset": "ABC.csv",
+            "date": "10/05/2024 00:36:19",
+            "md5": "23f6ff8788581ca374d87d350da88859"
+        },
+        {
+            "filename": "KNeighbors_6.pkl",
+            "mse": "none",
+            "f1": 0.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "10/05/2024 00:36:49",
+            "md5": "7f4ab1d6d437616a61057e773a238fba"
+        },
+        {
+            "filename": "NaiveBayesClassifier_15.pkl",
+            "mse": "none",
+            "f1": 0.8571428571428571,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "10/05/2024 00:37:09",
+            "md5": "eb212b1c5e07da39c4e9f4449200014e"
+        },
+        {
+            "filename": "BayesianRegression_13.pkl",
+            "mse": 0.0939403052163345,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "10/05/2024 00:38:59",
+            "md5": "96f7602b4cef4c2fdbb99068caf155dd"
+        },
+        {
+            "filename": "KModes_19.pkl",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": -0.16495545493670055,
+            "target": "",
+            "dataset": "Finance_data.csv",
+            "date": "10/05/2024 00:50:35",
+            "md5": "daf279ee8a36ab0bb1f2ef5d7aee109f"
+        }
+    ]
+}

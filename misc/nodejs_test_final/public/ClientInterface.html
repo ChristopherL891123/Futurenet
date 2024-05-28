@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Page</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #233861;
+    }/*end body*/
+    .container {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }/*end container */
+    .label {
+        font-size: 34px;
+        font-weight: bold;
+        color: white;
+    }/*end container */
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+    }/*end textbox */
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="label">FUTURENET<br>CLIENT VERSION<br>By Christopher Lama<br>Advisors: Dr. Carlos Monroy and Dr. Charles Thangaraj</h1>
+    <button class="button" onclick="viewAvailableUpdates()">Available Compatible Updates</button><br>
+    <button class="button" onclick="viewUpdatesHistory()">Updates History</button><br>
+    <button class="button" onclick="viewMLModels()">ML Models</button><br>
+</div>
+
+<script>
+    function viewAvailableUpdates() {
+        console.log("availableCompatibleUpdates clicked");
+        window.location.href = "ClientInterface_AvailableUpdates.html";
+
+    }
+    function viewUpdatesHistory() {
+        console.log("updatesHistory clicked.");
+        // get from json
+    }
+    function viewMLModels() {
+        window.location.href = "ClientInterface_MLModels.html";
+        console.log("mlModels clicked");
+    }
+</script>
+
+</body>
+</html>

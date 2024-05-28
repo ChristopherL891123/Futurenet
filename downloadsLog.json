@@ -1,0 +1,1312 @@
+{
+    "default_user": [
+        {
+            "filename": "BayesianRegression_0.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T19:44:28.297072"
+        },
+        {
+            "filename": "BayesianRegression_1.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:20:29.278851"
+        },
+        {
+            "filename": "BayesianRegression_2.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:34:51.338654"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:39:03.088462"
+        },
+        {
+            "filename": "BayesianRegression_4.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:41:57.251446"
+        },
+        {
+            "filename": "BayesianRegression_5.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:43:18.135749"
+        },
+        {
+            "filename": "BayesianRegression_6.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T20:57:04.600436"
+        },
+        {
+            "filename": "BayesianRegression_7.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T21:27:35.669403"
+        },
+        {
+            "filename": "BayesianRegression_8.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T21:30:35.837096"
+        },
+        {
+            "filename": "BayesianRegression_9.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T21:36:53.080411"
+        },
+        {
+            "filename": "BayesianRegression_10.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T21:45:55.811075"
+        },
+        {
+            "filename": "BayesianRegression_11.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:08:16.798593"
+        },
+        {
+            "filename": "BayesianRegression_12.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:10:51.407129"
+        },
+        {
+            "filename": "BayesianRegression_13.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:11:34.336405"
+        },
+        {
+            "filename": "BayesianRegression_14.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:27:46.001446"
+        },
+        {
+            "filename": "BayesianRegression_15.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:32:09.877678"
+        },
+        {
+            "filename": "BayesianRegression_16.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T22:39:08.848168"
+        },
+        {
+            "filename": "BayesianRegression_17.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-01T23:08:25.156333"
+        },
+        {
+            "filename": "BayesianRegression_23.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T08:11:41.881187"
+        }
+    ],
+    "a": [
+        {
+            "filename": "SpectralClustering_2",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-07T12:14:09.704397"
+        },
+        {
+            "filename": "SpectralClustering_3",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T08:56:37.639772"
+        },
+        {
+            "filename": "SpectralClustering_4",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T09:03:37.817554"
+        },
+        {
+            "filename": "KModes_0",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T09:13:27.659233"
+        },
+        {
+            "filename": "BayesianRegression_2.pkl",
+            "mse": 83.97631466320091,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T09:20:30.420685"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97631466320091,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T09:20:49.352403"
+        },
+        {
+            "filename": "KMeans_0",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6702928142537091,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T09:35:09.396327"
+        },
+        {
+            "filename": "GradientBoostRegression_3.pkl",
+            "mse": 73.6121968106105,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T10:04:30.072733"
+        },
+        {
+            "filename": "GradientBoostRegression_4.pkl",
+            "mse": 73.6121968106105,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T10:04:36.913371"
+        },
+        {
+            "filename": "RandomForestClassifier_4.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T10:45:02.350172"
+        },
+        {
+            "filename": "xgbClassifier0.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T11:05:12.328006"
+        },
+        {
+            "filename": "NaiveBayesClassifier_0.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T11:25:18.988919"
+        },
+        {
+            "filename": "KNeighbors_0.pkl",
+            "mse": "none",
+            "f1": 0.46261682242990654,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T11:28:47.202967"
+        },
+        {
+            "filename": "KMeans_1",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6702589470656801,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T20:55:44.455188"
+        },
+        {
+            "filename": "KMeans_2",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.67061090255225,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T21:00:01.226876"
+        },
+        {
+            "filename": "KModes_1",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:28:36.423715"
+        },
+        {
+            "filename": "KModes_2",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:36:25.556528"
+        },
+        {
+            "filename": "KModes_3",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:48:30.438348"
+        },
+        {
+            "filename": "KModes_4",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:49:21.363877"
+        },
+        {
+            "filename": "KModes_5",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:52:33.747657"
+        },
+        {
+            "filename": "KModes_6",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:54:09.635909"
+        },
+        {
+            "filename": "KModes_7",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T21:55:36.245437"
+        },
+        {
+            "filename": "KMeans_3",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6706086345117127,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T21:58:05.756039"
+        },
+        {
+            "filename": "KModes_8",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T22:00:07.761397"
+        },
+        {
+            "filename": "KMeans_4",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6706086345117127,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:00:30.793776"
+        },
+        {
+            "filename": "SpectralClustering_5",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T22:07:08.190357"
+        },
+        {
+            "filename": "SpectralClustering_6",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T22:09:32.285494"
+        },
+        {
+            "filename": "KMeans_5",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6702537279516089,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:10:29.778583"
+        },
+        {
+            "filename": "KMeans_6",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6706153787804592,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:25:05.206795"
+        },
+        {
+            "filename": "BayesianRegression_4.pkl",
+            "mse": 83.97631466320091,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:53:34.628890",
+            "md5": "<md5 _hashlib.HASH object @ 0x00000207967DF2F0>"
+        },
+        {
+            "filename": "BayesianRegression_5.pkl",
+            "mse": 83.97631466320091,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:53:53.309271",
+            "md5": "<md5 _hashlib.HASH object @ 0x000001F9B1D3B3D0>"
+        },
+        {
+            "filename": "BayesianRegression_6.pkl",
+            "mse": 83.97631466320091,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:55:24.662849",
+            "md5": "4e5a49f77127d981ecf1114fb22657e3"
+        },
+        {
+            "filename": "BayesianRegression_7.pkl",
+            "mse": 83.97631466320091,
+            "f1": "noneererbgerbertbertb",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:56:24.355134",
+            "md5": "ed52d9f1c4273c7a48c5d93884a38a92"
+        },
+        {
+            "filename": "GradientBoostRegression_5.pkl",
+            "mse": 73.6121968106105,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T22:59:46.152690",
+            "md5": "dfa9098d1ca38a88dcadd6c6454a0d27"
+        },
+        {
+            "filename": "KMeans_7",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.6702380222824623,
+            "target": "",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-08T23:00:35.761097",
+            "md5": "3e919a385606d0c0a0e761b6c8b9e5b8"
+        },
+        {
+            "filename": "KModes_9",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:04:34.465317",
+            "md5": "930bdb25af4d974d4b3b2286f57800a9"
+        },
+        {
+            "filename": "KNeighbors_1.pkl",
+            "mse": "none",
+            "f1": 0.46261682242990654,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:06:44.931444",
+            "md5": "dd8d1d628ced1fa1300a312e37c0dea2"
+        },
+        {
+            "filename": "NaiveBayesClassifier_1.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:07:45.260557",
+            "md5": "162dfd4d21d843e609224532d7b5888e"
+        },
+        {
+            "filename": "RandomForestClassifier_5.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:08:13.427294",
+            "md5": "2271302338d7754c525226f081053692"
+        },
+        {
+            "filename": "SpectralClustering_7",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:08:30.147499",
+            "md5": "5dd0eaa417eb8031ac53080d420540e4"
+        },
+        {
+            "filename": "xgbClassifier1.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-08T23:08:45.395120",
+            "md5": "5fd2bc9c7c57e133b80de20859f2f00c"
+        },
+        {
+            "filename": "BayesianRegression_8.pkl",
+            "mse": 83.97400242115731,
+            "f1": "none",
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-09T06:06:11.858169",
+            "md5": "1c263d8ee03c093118a4653a6c5370e1"
+        },
+        {
+            "filename": "BayesianRegression_9.pkl",
+            "mse": 64672781850.850746,
+            "f1": "none",
+            "target": "Expenditure(million USD)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-09T06:07:21.255568",
+            "md5": "3771077945c6c5fbc874562e6545b7d6"
+        },
+        {
+            "filename": "BayesianRegression_10.pkl",
+            "mse": 6294853548565.938,
+            "f1": "none",
+            "target": "Volume",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T06:41:56.210777",
+            "md5": "eb22650618c25f13dd4b016f201a6769"
+        },
+        {
+            "filename": "GradientBoostRegression_6.pkl",
+            "mse": 2551569099389.8965,
+            "f1": "none",
+            "target": "Volume",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T06:43:58.713250",
+            "md5": "5b4feef896131654c96103c75b72eb7a"
+        },
+        {
+            "filename": "GradientBoostRegression_7.pkl",
+            "mse": 0.1882656622742135,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T06:45:24.967701",
+            "md5": "00a6ee8606a44c0d97c33ec53c36aa7d"
+        },
+        {
+            "filename": "NaiveBayesClassifier_2.pkl",
+            "mse": "none",
+            "f1": 0.5352750305815257,
+            "target": "is_fraud",
+            "dataset": "creditCardDataset.csv",
+            "date": "2024-05-09T08:37:34.182731",
+            "md5": "e0805d02ca7b445de8a085dbf98674ee"
+        },
+        {
+            "filename": "xgbClassifier2.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T09:41:35.148652",
+            "md5": "d3db5f8d98f91392f79c4de443e6dbde"
+        },
+        {
+            "filename": "xgbClassifier3.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:02:53.869160",
+            "md5": "f97c64307cc1c58f525b36f18d5a4db9"
+        },
+        {
+            "filename": "xgbClassifier4.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:03:49.248467",
+            "md5": "0a7c8b6a0141bbc96b79747031ea0fae"
+        },
+        {
+            "filename": "NaiveBayesClassifier_3.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:07:50.619295",
+            "md5": "1303777ac548721e92d8aaae1659ca8e"
+        },
+        {
+            "filename": "NaiveBayesClassifier_4.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:08:23.170101",
+            "md5": "ef32f7c2d98ac800b0ae5993478994e1"
+        },
+        {
+            "filename": "NaiveBayesClassifier_5.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:25:45.218165",
+            "md5": "bde62c155e446b96c4661a0219ac1b85"
+        },
+        {
+            "filename": "KNeighbors_2.pkl",
+            "mse": "none",
+            "f1": 0.46261682242990654,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:26:24.893718",
+            "md5": "e375af0788b439733cf5e515c313c734"
+        },
+        {
+            "filename": "KNeighbors_3.pkl",
+            "mse": "none",
+            "f1": 0.46261682242990654,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:28:47.681988",
+            "md5": "d55b9023cdd6edfa7addec8cc6f1c528"
+        },
+        {
+            "filename": "RandomForestClassifier_6.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:29:53.511245",
+            "md5": "9d84be807d3efc873c08ef57577698d7"
+        },
+        {
+            "filename": "xgbClassifier5.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:30:40.134669",
+            "md5": "1682d23d3f4135879378e176b5da55fd"
+        },
+        {
+            "filename": "KMeans_8",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.5796712369321532,
+            "target": "",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T10:34:36.857272",
+            "md5": "e5bbee8fcb6b676ed53e32cad9fc47b2"
+        },
+        {
+            "filename": "KModes_10",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:36:24.893961",
+            "md5": "a474e755e71449c236e2a8d7f3fb6528"
+        },
+        {
+            "filename": "KModes_11",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.022287710511039005,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:36:51.753678",
+            "md5": "6a60f4b18fcb9b51d107f9b57a6efe3c"
+        },
+        {
+            "filename": "SpectralClustering_8",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.4379035270028015,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:38:45.525795",
+            "md5": "f2ec85aaee837bf3474df5df4902c5cf"
+        },
+        {
+            "filename": "SpectralClustering_9",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.3362241500849974,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T10:39:32.133588",
+            "md5": "e850462885f2f8dbc6677f49810f7cce"
+        },
+        {
+            "filename": "xgbClassifier6.pkl",
+            "mse": "none",
+            "f1": 0.2976190476190476,
+            "target": "Equity_Market",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T10:50:14.044713",
+            "md5": "04737724d49bcd4dbd0a7842e62a7f21"
+        },
+        {
+            "filename": "xgbClassifier6.pkl",
+            "mse": "none",
+            "f1": 0.2976190476190476,
+            "target": "Equity_Market",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T10:52:55.633953",
+            "md5": "04737724d49bcd4dbd0a7842e62a7f21"
+        },
+        {
+            "filename": "xgbClassifier6.pkl",
+            "mse": "none",
+            "f1": 0.3466666666666667,
+            "target": "Equity_Market",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T10:55:12.469135",
+            "md5": "04737724d49bcd4dbd0a7842e62a7f21"
+        },
+        {
+            "filename": "xgbClassifier6.pkl",
+            "mse": "none",
+            "f1": 0.3466666666666667,
+            "target": "Equity_Market",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T10:55:16.899818",
+            "md5": "04737724d49bcd4dbd0a7842e62a7f21"
+        },
+        {
+            "filename": "xgbClassifier6.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T14:50:01.052948",
+            "md5": "04737724d49bcd4dbd0a7842e62a7f21"
+        },
+        {
+            "filename": "xgbClassifier7.pkl",
+            "mse": "none",
+            "f1": 0.42857142857142855,
+            "target": "Source_Television",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T14:53:41.084218",
+            "md5": "12d1d312a34a93bfbba692789ed6e477"
+        },
+        {
+            "filename": "xgbClassifier8.pkl",
+            "mse": "none",
+            "f1": 0.42857142857142855,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:03:00.265688",
+            "md5": "f756306dd6dd5ae0358ba69a48550a7a"
+        },
+        {
+            "filename": "xgbClassifier8.pkl",
+            "mse": "none",
+            "f1": 0.42857142857142855,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:06:53.958475",
+            "md5": "f756306dd6dd5ae0358ba69a48550a7a"
+        },
+        {
+            "filename": "xgbClassifier9.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Factor_Returns",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:11:19.622715",
+            "md5": "47ecf525c1a0911fb392567c35cdd6a0"
+        },
+        {
+            "filename": "NaiveBayesClassifier_6.pkl",
+            "mse": "none",
+            "f1": 0.7333333333333334,
+            "target": "Factor_Returns",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:11:44.111659",
+            "md5": "17666bbf8aaaf81f5dea7a63b0a5f57d"
+        },
+        {
+            "filename": "NaiveBayesClassifier_7.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:11:56.059801",
+            "md5": "3e2a8fd9fee69c15fd5f37235693291a"
+        },
+        {
+            "filename": "NaiveBayesClassifier_8.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:12:01.755471",
+            "md5": "a51045c81effa56e6e25311cedb44ce6"
+        },
+        {
+            "filename": "NaiveBayesClassifier_9.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:12:03.124607",
+            "md5": "43b7ad36ee44bd4dab52ab31b56961be"
+        },
+        {
+            "filename": "RandomForestClassifier_7.pkl",
+            "mse": "none",
+            "f1": 0.42857142857142855,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:12:24.483297",
+            "md5": "62d1ec5ca397cb545def148c3f19eb51"
+        },
+        {
+            "filename": "RandomForestClassifier_8.pkl",
+            "mse": "none",
+            "f1": 0.38461538461538464,
+            "target": "Purpose_Savings for Future",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T15:18:38.509885",
+            "md5": "ad12fad8208f9bc1d2cfbbe5fab1b877"
+        },
+        {
+            "filename": "KModes_12",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.04262441053276193,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:29:54.792348",
+            "md5": "966aef024311967aa1043bc3d30f1122"
+        },
+        {
+            "filename": "NaiveBayesClassifier_10.pkl",
+            "mse": "none",
+            "f1": 0.9214285714285715,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:30:25.135966",
+            "md5": "a383fa7d8fe88717f0de3fd85e5810b8"
+        },
+        {
+            "filename": "RandomForestClassifier_9.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:31:05.235636",
+            "md5": "a028f9364ed47eba66a5c42fc80a789f"
+        },
+        {
+            "filename": "xgbClassifier10.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:31:16.699549",
+            "md5": "eab59b847858c9e3b1d89cbc090f5cc6"
+        },
+        {
+            "filename": "SpectralClustering_10",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:35:21.054854",
+            "md5": "0fa26a3c71943fc37d12568a0206772b"
+        },
+        {
+            "filename": "SpectralClustering_11",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.47647028636085476,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:36:20.648269",
+            "md5": "32ec4d12631ec870533fcbb682af5b09"
+        },
+        {
+            "filename": "SpectralClustering_12",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.3951184520733471,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:36:43.658745",
+            "md5": "b2adcc7445db9851639e652c06b54276"
+        },
+        {
+            "filename": "SpectralClustering_13",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.3926061668729914,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:43:30.261592",
+            "md5": "133c4e656d6241979908dc542bb82eed"
+        },
+        {
+            "filename": "SpectralClustering_14",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.3951184520733471,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:44:09.694038",
+            "md5": "a012c9bad92e10b53949dae9b117bfc5"
+        },
+        {
+            "filename": "SpectralClustering_14",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.3951184520733471,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "2024-05-09T15:49:38.647312",
+            "md5": "a012c9bad92e10b53949dae9b117bfc5"
+        },
+        {
+            "filename": "SpectralClustering_14",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.17716358153634668,
+            "target": "",
+            "dataset": "North_America_Restaurants.csv",
+            "date": "2024-05-09T16:19:40.955855",
+            "md5": "a012c9bad92e10b53949dae9b117bfc5"
+        },
+        {
+            "filename": "KModes_13",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": -0.08347082906665469,
+            "target": "",
+            "dataset": "North_America_Restaurants.csv",
+            "date": "2024-05-09T16:20:20.252434",
+            "md5": "ba56bc855e5089858af7fd49e5d84555"
+        },
+        {
+            "filename": "SpectralClustering_15",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.17716358153634668,
+            "target": "",
+            "dataset": "North_America_Restaurants.csv",
+            "date": "2024-05-09T16:20:31.975634",
+            "md5": "54c9c724db3d66d20457d3d684725de3"
+        },
+        {
+            "filename": "NaiveBayesClassifier_11.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Stock_Market_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "2024-05-09T16:33:09.999615",
+            "md5": "11aee744e8c03860ead916d786955a0c"
+        },
+        {
+            "filename": "NaiveBayesClassifier_12.pkl",
+            "mse": "none",
+            "f1": 0.533759046475558,
+            "target": "Classification",
+            "dataset": "FDAInspections.csv",
+            "date": "2024-05-09T16:42:36.596693",
+            "md5": "639ab3b87a6bd5d885866be785b77311"
+        },
+        {
+            "filename": "xgbClassifier11.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Classification_Official Action Indicated (OAI)",
+            "dataset": "FDAInspections.csv",
+            "date": "2024-05-09T18:21:52.373609",
+            "md5": "7eddd221d2fde235087b25a7712e16fc"
+        },
+        {
+            "filename": "GradientBoostRegression_8.pkl",
+            "mse": 0.1882656622742135,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T18:26:02.301763",
+            "md5": "1823e60a608aa675386e9bdcd13aade4"
+        },
+        {
+            "filename": "GradientBoostRegression_9.pkl",
+            "mse": 0.1882656622742135,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T18:27:10.155202",
+            "md5": "df9e711b38e99474d7e5234b3a4a8eb0"
+        },
+        {
+            "filename": "KModes_14",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.08117921006238729,
+            "target": "",
+            "dataset": "FDAInspections.csv",
+            "date": "2024-05-09T19:42:36.826520",
+            "md5": "fd77e81972515cf438e093aeba9edfc1"
+        },
+        {
+            "filename": "SpectralClustering_16",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": -0.2579216627306057,
+            "target": "",
+            "dataset": "FDAInspections.csv",
+            "date": "2024-05-09T20:36:46.683774",
+            "md5": "3d2ec0dcd4ccd65c40b6a635fe61350c"
+        },
+        {
+            "filename": "BayesianRegression_11.pkl",
+            "mse": 0.0939403052163345,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "09/05/2024 20:48:24",
+            "md5": "3d2a25abaebf3db387f46c4a9986034d"
+        },
+        {
+            "filename": "GradientBoostRegression_10.pkl",
+            "mse": 0.18743020608412564,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T20:49:02.057661",
+            "md5": "c1844050b98eb29e664d6f2cc82ba6c7"
+        },
+        {
+            "filename": "KMeans_9",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.5796656016995569,
+            "target": "",
+            "dataset": "ABC.csv",
+            "date": "2024-05-09T20:49:36.019361",
+            "md5": "8ca96b8cb8b113d3f486ced7aea278f0"
+        },
+        {
+            "filename": "NaiveBayesClassifier_13.pkl",
+            "mse": "none",
+            "f1": 0.8571428571428571,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:43:04",
+            "md5": "54f210a8eb616e87c99803117c648fbb"
+        },
+        {
+            "filename": "GradientBoostRegression_11.pkl",
+            "mse": 0.002246509628210637,
+            "f1": "none",
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:45:37",
+            "md5": "9c3d4617bb3ca5c70e23413b7b4b045a"
+        },
+        {
+            "filename": "KNeighbors_4.pkl",
+            "mse": "none",
+            "f1": 0.0,
+            "target": "Risk_High",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:46:09",
+            "md5": "e4ee59914886fff13fffd43aafb51479"
+        },
+        {
+            "filename": "KModes_15",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.022287710511039005,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:48:52",
+            "md5": "97f3477a1ac062eff0c064e27ef29075"
+        },
+        {
+            "filename": "KModes_16",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.022287710511039005,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:52:51",
+            "md5": "3ce064e510faf76b666003d7013ecf7c"
+        },
+        {
+            "filename": "KModes_17",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.022287710511039005,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:55:07",
+            "md5": "aee139e30d0d795a9c0eb4f0c7fd7975"
+        },
+        {
+            "filename": "SpectralClustering_17",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.43058139064766626,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 21:57:48",
+            "md5": "084095d8f719f3c7e56a46b19bcd772f"
+        },
+        {
+            "filename": "SpectralClustering_18",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.43058139064766626,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 22:14:31",
+            "md5": "c5ea9a601bca65a3c81813fe7d9e9c86"
+        },
+        {
+            "filename": "SpectralClustering_19",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.43058139064766626,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 22:16:51",
+            "md5": "fdc2e36987566721b5a1f6ad2d267a0e"
+        },
+        {
+            "filename": "SpectralClustering_20",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.43058139064766626,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 22:21:01",
+            "md5": "b0636556ebbbc7f566c7189934db7713"
+        },
+        {
+            "filename": "BayesianRegression_12.pkl",
+            "mse": 0.0939403052163345,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "09/05/2024 22:35:21",
+            "md5": "47506b5d9a071c6018c572e41d0e94e7"
+        },
+        {
+            "filename": "GradientBoostRegression_12.pkl",
+            "mse": 0.1883496889268729,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "09/05/2024 22:36:18",
+            "md5": "1cf7cc49a541e163bc6b9bc9856a400e"
+        },
+        {
+            "filename": "GradientBoostRegression_12.pkl",
+            "mse": 0.20776480063842276,
+            "f1": "none",
+            "target": "High",
+            "dataset": "ABC.csv",
+            "date": "09/05/2024 22:36:31",
+            "md5": "1cf7cc49a541e163bc6b9bc9856a400e"
+        },
+        {
+            "filename": "KMeans_10",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.5819429223789787,
+            "target": "",
+            "dataset": "ABC.csv",
+            "date": "09/05/2024 22:37:32",
+            "md5": "6ade27f01033af254b47ab0cc2edfdc2"
+        },
+        {
+            "filename": "NaiveBayesClassifier_14.pkl",
+            "mse": "none",
+            "f1": 1.0,
+            "target": "Investment_Avenues_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "09/05/2024 22:41:11",
+            "md5": "6a71480d32059ee214d4ada9d424e03b"
+        },
+        {
+            "filename": "KNeighbors_5.pkl",
+            "mse": "none",
+            "f1": 0.9090909090909091,
+            "target": "Investment_Avenues_Yes",
+            "dataset": "Finance_data.csv",
+            "date": "09/05/2024 22:41:53",
+            "md5": "6aaff1e9feb9be0abd36d3873963578b"
+        },
+        {
+            "filename": "KModes_18",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": -0.16495545493670055,
+            "target": "",
+            "dataset": "Finance_data.csv",
+            "date": "09/05/2024 22:44:43",
+            "md5": "a00156e7bfd5cac08d8698fdc7f1f912"
+        },
+        {
+            "filename": "SpectralClustering_21",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": -0.3015800437353324,
+            "target": "",
+            "dataset": "Finance_data.csv",
+            "date": "09/05/2024 22:46:37",
+            "md5": "2c9c81f5a9c7e503e4d5a8b819d1ab18"
+        },
+        {
+            "filename": "SpectralClustering_22",
+            "mse": "none",
+            "f1": "none",
+            "sihouette": 0.4842409660066731,
+            "target": "",
+            "dataset": "Thyroid_Diff.csv",
+            "date": "09/05/2024 23:18:45",
+            "md5": "606e3a8c9f787ecb2832596a1be2bc9f"
+        },
+        {
+            "filename": "GradientBoostRegression_12.pkl",
+            "mse": 0.1883496889268729,
+            "f1": "none",
+            "target": "Low",
+            "dataset": "ABC.csv",
+            "date": "10/05/2024 00:39:17",
+            "md5": "1cf7cc49a541e163bc6b9bc9856a400e"
+        }
+    ],
+    "abc": [
+        {
+            "filename": "BayesianRegression_21.pkl",
+            "mse": 83.97400242115731,
+            "r2": 0.09032595659172815,
+            "date": "2024-05-04T11:52:11.982900"
+        }
+    ],
+    "John": [
+        {
+            "filename": "BayesianRegression_0.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:22:31.594114"
+        },
+        {
+            "filename": "BayesianRegression_1.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:22:42.928225"
+        },
+        {
+            "filename": "BayesianRegression_2.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:23:09.802634"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:24:37.999833"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:25:12.924411"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:25:36.385481"
+        },
+        {
+            "filename": "BayesianRegression_3.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:27:48.506243"
+        },
+        {
+            "filename": "BayesianRegression_4.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:28:24.540139"
+        },
+        {
+            "filename": "BayesianRegression_5.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:28:25.142117"
+        },
+        {
+            "filename": "BayesianRegression_5.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:29:04.606170"
+        },
+        {
+            "filename": "BayesianRegression_6.pkl",
+            "mse": 83.97631466320091,
+            "target": "GDP(%)",
+            "dataset": "WorldExpenditures.csv",
+            "date": "2024-05-07T09:29:20.984507"
+        }
+    ]
+}

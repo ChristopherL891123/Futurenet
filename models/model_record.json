@@ -1,0 +1,33 @@
+{
+  "a": {
+    "BayesianRegression": 14,
+    "GradientBoostRegression": 12,
+    "KMeans": 13,
+    "KModes": 20,
+    "KNeighbors": 7,
+    "NaiveBayesClassifier": 16,
+    "SpectralClustering": 24,
+    "xgbClassifier": 12,
+    "gradientBoostRegression": 3
+  },
+  "abc": {
+    "BayesianRegression": 0,
+    "GradientBoostRegression": 0,
+    "KMeans": 0,
+    "KModes": 0,
+    "KNeighbors": 0,
+    "NaiveBayesClassifier": 0,
+    "SpectralClustering": 0,
+    "xgbClassifier": 0
+  },
+  "John": {
+    "BayesianRegression": 7,
+    "GradientBoostRegression": 0,
+    "KMeans": 0,
+    "KModes": 0,
+    "KNeighbors": 0,
+    "NaiveBayesClassifier": 0,
+    "SpectralClustering": 0,
+    "xgbClassifier": 0
+  }
+}

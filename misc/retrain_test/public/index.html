@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Training and Download</title>
+</head>
+<body>
+    <h1>Upload Dataset and Train Model</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <div>
+            <label for="dataset">Dataset File:</label>
+            <input type="file" id="dataset" name="dataset" required>
+        </div>
+        <div>
+            <label for="modelName">Model Name:</label>
+            <input type="text" id="modelName" name="modelName" placeholder="Enter model script name without .py" required>
+        </div>
+        <div>
+            <label for="targetVariable">Target Variable:</label>
+            <input type="text" id="targetVariable" name="targetVariable" placeholder="Enter target variable name" required>
+        </div>
+        <button type="submit">Train Model</button>
+    </form>
+</body>
+</html>

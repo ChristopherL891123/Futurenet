@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Page - FutureNet</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(to right, #233861, #1a2747);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        color: #FFFFFF;
+    }
+    .container {
+        width: 90%;
+        max-width: 600px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        text-align: center; 
+    }
+    .label {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 30px;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        display: block; 
+        margin: 10px auto; 
+        width: 80%; 
+    }
+    .button:hover {
+        background-color: #367c39;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="label">FUTURENET<br>CLIENT VERSION<br>By Christopher Lama<br>Advisors: Dr. Carlos Monroy<br>Consultant: Dr. Charles Thangaraj</h1>
+    <button class="button" onclick="viewAvailableUpdates()">Download Model or Request Update</button>
+    <button class="button" onclick="viewUpdatesHistory()">Updates History</button>
+    <button class="button" onclick="downloadTrial()">Download Trial</button><br>
+    <button class="button" onclick="viewTips()">View Tips/Advice from Developers</button><br>
+
+</div>
+
+<script>
+    function viewAvailableUpdates() {
+        console.log("Available Compatible Updates clicked");
+        window.location.href = "ClientInterface_RequestUpdate.html";
+    }
+    function viewUpdatesHistory() {
+        window.location.href = "ClientInterface_UpdateHistory.html"; 
+    }
+    function viewMLModels() {
+        console.log("ML Models clicked");
+        window.location.href = "ClientInterface_MLModels.html";
+    }
+    function downloadTrial() {
+        window.location.href = "/download-trial";
+    }
+    function viewTips() {
+        window.location.href = "ClientInterface_tips.html";
+    }
+</script>
+
+</body>
+</html>
+

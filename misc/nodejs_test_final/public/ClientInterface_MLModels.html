@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Client Page - ML Models</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #233861;
+    }/*end body*/
+    .container {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }/*end container */
+    .label {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+    }/*end container */
+    .textbox {
+        width: 80%;
+        height: 400px;
+        margin: 20px auto;
+        padding: 10px;
+        font-size: 18px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 5px;
+    }/*end textbox */
+    .input {
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+    }/*end input */
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+    }/*end button*/
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="label">ML models on client</h1>
+    <h3 class="label">Model number:</h3>
+    <input class="input" type="text" id="modelNumber" value="" placeholder="Model Number">
+    <br>
+    <textarea class="textbox" id="mlModelsTextbox" rows="20" cols="100"></textarea>
+    <br>
+    <button class="button" onclick="removeModel()">Remove Model from Client</button>
+    <button class="button" onclick="downloadModel()">Download Model</button>
+</div>
+
+<script>
+    //test data
+    document.getElementById("mlModelsTextbox").value = "Model 1:\n---------\n\nModel 2:\n-------------";
+
+    function removeModel() {
+        var modelNumber = document.getElementById("modelNumber").value;
+        console.log("removeModelClient clicked, model number:", modelNumber);
+    }
+
+    function downloadModel() {
+        const link = document.createElement('a');
+        link.href = '/download/model'; 
+        link.download = 'serialized_model.pkl'; 
+
+        document.body.appendChild(link);
+
+        link.click();
+
+        document.body.removeChild(link);
+    }
+</script>
+
+</body>
+</html>

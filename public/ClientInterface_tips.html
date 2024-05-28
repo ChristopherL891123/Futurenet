@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Text Lines</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #233861, #1a2747);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            text-align: center;
+            box-sizing: border-box; 
+        }
+        .textbox {
+            width: 100%; 
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-align: left;
+            overflow-y: auto; 
+            box-sizing: border-box;
+        }
+        p {
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Advice for Choosing the Right Model</h1>
+        <div class="textbox">
+            <h1>Visualize your goal</h1>
+            <p>- If you would like to categorize your data use a classifier model.</p>
+            <p>- If you would like to predict a value use a regression model.</p>
+            <p>- If you would like to group together observations and draw conclusions from them use a clustering model.</p>
+
+            <h1>Understand your dataset</h1>
+            <p>- All models automatically clean for NaN values.</p>
+            <p>- This project is more suited for small to medium dataset sizes.
+               Expect performance drop when it comes to a larger dataset; our experts are currently upscaling our infrastructure.</p>
+            <p>- Numbers-based datasets are best for regression.</p>
+            <p>- Category number-based datasets are best for classifiers or clustering; it is important to have a goal in mind before choosing one!</p>
+
+            <h1>Experiment your Ideas!</h1>
+            <p>- There are many models to use for your own Machine Learning projects, so feel free to experiment all you like until 
+              you find a model that suits your needs.</p>
+            <p>- Feel free to experiment your ideas through our service!</p>
+            <p>- As of yet, there is no limit to model requests per user. Expect this to change soon.</p>
+        </div>
+    </div>
+</body>
+</html>

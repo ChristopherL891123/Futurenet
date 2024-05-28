@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download History</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #233861, #1a2747);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Download History</h1>
+        <div id="history">Loading...</div>
+    </div>
+
+    <script>
+        fetch('/download-logs')
+            .then(response => response.json())
+            .then(data => {
+                const historyContainer = document.getElementById('history');
+                historyContainer.innerHTML = ''; 
+                
+                const logs = data.logs;
+                
+                if (logs) {
+                    Object.keys(logs).forEach(username => {
+                        const userLogs = logs[username];
+                        const userHeader = document.createElement("h2");
+                        userHeader.textContent = `User: ${username} `;
+                        historyContainer.appendChild(userHeader);
+
+                        if (userLogs.length > 0) {
+                            userLogs.forEach(item => {
+                                const logEntry = document.createElement('p');
+                                logEntry.innerHTML = `Model: ${item.filename}<br>MSE: ${item.mse}<br>Target: ${item.target}<br>Dataset: ${item.dataset}<br>Date: ${item.date} <br>F1:${item.f1} <br> Sihouette: ${item.sihouette} <br> MD5:${item.md5} <br>-----------------------------------------------`;
+                                historyContainer.appendChild(logEntry);
+                            });
+                        } else {
+                            const noLogsMessage = document.createElement('p');
+                            noLogsMessage.textContent = "No download history available for this user.";
+                            historyContainer.appendChild(noLogsMessage);
+                        }
+                    });
+                } else {
+                    const errorMessage = document.createElement('p');
+                    errorMessage.textContent = "Error loading download history. Please try again later.";
+                    historyContainer.appendChild(errorMessage);
+                }
+            })
+            .catch(error => {
+                console.error("Failed to fetch download history:", error);
+                const errorContainer = document.getElementById("history");
+                errorContainer.innerHTML = "<p>Error loading download history. Please try again later.</p>";
+            });
+    </script>
+</body>
+</html>

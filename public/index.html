@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureNet</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: #FFFFFF;
+            background: linear-gradient(to right, #233861, #1a2747);
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            box-sizing: border-box; /* Include padding in the width calculation */
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #369636;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Login / Register</h2>
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="register('admin')">Create Admin Account</button>
+        <button onclick="register('client')">Create Client Account</button>
+        <button onclick="login('Admin')">Login as Admin</button>
+        <button onclick="login('Client')">Login as Client</button>
+    </div>
+
+    <script>
+        function register(role) {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            fetch("/register", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password, role })
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                if (data.success) {
+                }
+            });
+        }
+
+        function login(role) {
+            const username = document.getElementById("username").value;
+            const password = document.getElementById("password").value;
+            fetch("/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ username, password, role })
+            })
+            .then(response => response.json())
+
+            window.location.href = `/${role}Interface.html`; 
+
+        }
+    </script>
+</body>
+</html>

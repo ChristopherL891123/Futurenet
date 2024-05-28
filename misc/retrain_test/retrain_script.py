@@ -1,0 +1,1 @@
+# this script is intended to call the respective script to retrain and reserialize the model the user wants to serialize

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Page</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #233861;
+    }/*end body*/
+    .container {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }/*end container */
+    .label {
+        font-size: 34px;
+        font-weight: bold;
+        color: white;
+    }/*end label*/
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }/*end button*/
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="label">FUTURENET<br>ADMIN VERSION<br>By Christopher Lama<br>Advisors: Dr. Carlos Monroy and Dr. Charles Thangaraj</h1>
+    <button class="button" onclick="viewUpdateHistory()">View Update History</button><br>
+    <button class="button" onclick="rollOutUpdates()">Roll Out Updates</button><br>
+    <button class="button" onclick="checkClientStatus()">Check Client Status</button><br>
+    <button class="button" onclick="mlModels()">ML Models by Client</button><br>
+</div>
+
+<script>
+    function viewUpdateHistory() {
+        console.log("viewUpdateHistory clicked")
+        window.location.href = "AdminInterface_UpdateHistory.html";
+    }
+    function rollOutUpdates() {
+        console.log("rollOutUpdates clicked");
+
+    }
+    function checkClientStatus() { //check if there is a connection between admin and client
+        console.log("checkClientStatus clicked");
+    }
+    function mlModels() {
+        console.log("mlModelsClient button clicked");
+        window.location.href = "AdminInterface_MLModels.html";
+
+    }
+</script>
+
+</body>
+</html>

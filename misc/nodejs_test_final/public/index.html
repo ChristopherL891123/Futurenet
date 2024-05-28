@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABCDEFG</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #233861;
+    }/*end body*/
+    .container {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }/*end container */
+    .title {
+        font-size: 34px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 20px;
+    }/*end title*/
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }/*end button*/
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="title">FUTURENET</h1>
+    <h1 class="label">FUTURENET<br>ADMIN VERSION<br>By Christopher Lama<br>Advisors: Dr. Carlos Monroy and Dr. Charles Thangaraj</h1>
+    <button class="button" onclick="clientLogin()">Client Login</button>
+    <button class="button" onclick="adminLogin()">Admin Login</button>
+</div>
+
+<script>
+    function clientLogin() {
+        console.log("Client Login clicked");
+        window.location.href = "ClientInterface.html";
+    }
+
+    function adminLogin() {
+        console.log("Admin Login clicked");
+        window.location.href = "adminInterface.html";
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin - Update History</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #233861;
+    }/*end body*/
+
+     .container {  /*puts all elements in side an area */
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+     }/*end container */
+
+     .label { /*page title*/
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+    }/*end container */
+
+     .textbox {
+        width: 80%;
+        height: 400px;
+        margin: auto;
+        padding: 10px;
+        font-size: 18px;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 10px;
+    }/*end textbox */
+
+    .input {
+        width: 50px;
+        height: 30px;
+        font-size: 16px;
+     }/*end input */
+
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 20px 40px;
+        text-align: center;
+        display: inline-block;
+        font-size: 24px;
+        margin: 20px 10px;
+        cursor: pointer;
+        border-radius: 10px;
+    }/*end button*/
+
+</style>
+</head>
+<body>
+<div class="container">
+    <h1 class="label">Enter update number:</h1>
+    <input class="input" type="text" id="updateNumber" value="" placeholder="Update Number">
+    <br>
+    <textarea class="textbox" id="updateHistoryTextbox" rows="20" cols="100"></textarea>
+    <br>
+    <button class="button" onclick="sendNotification()">Send notification to client</button>
+    <button class="button" onclick="viewChangelog()">View changelog</button>
+</div>
+
+<script>
+
+    function sendNotification() {
+        var updateNumber = document.getElementById("updateNumber").value;
+        //display a browser pop up window notifying of an available update
+        // https://javascript.info/popup-windows
+        console.log("sendNotification clicked, update:", updateNumber);
+    }
+
+    function viewChangelog() {
+        // display info of a json key
+        console.log("ViewChangelog  clicked");
+    }
+</script>
+
+</body>
+</html>

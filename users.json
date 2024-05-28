@@ -1,0 +1,22 @@
+{
+  "default_user": {
+    "password": "freedom",
+    "role": "client"
+  },
+  "a": {
+    "password": "b",
+    "role": "client"
+  },
+  "abc": {
+    "password": "defg",
+    "role": "client"
+  },
+  "admin": {
+    "password": "hello",
+    "role": "admin"
+  },
+  "John": {
+    "password": "doe",
+    "role": "client"
+  }
+}
