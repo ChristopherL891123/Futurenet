@@ -8,4 +8,4 @@ Here are a lot of templates for different .gitignore files. Choose the one for t
 
 https://github.com/github/gitignore
 
-This project aims to simulate a business-scale Machine Learning pipeline in a distributed architecture through FTP commands. It is a cluster of machines, where all are connected together through a head computer. All these machines represent a different business, where the head computer is distributing the services to different business computer. All businesses have different needs. A GUI will be developed for communication between Client and Administrator.
+This project aims to simulate a business-scale Machine Learning pipeline in a distributed architecture through an HTML/CSS/Node JS/Python infrastructure. It is a cluster of machines, where all are connected together through a head computer. All these machines represent a different business, where the head computer is distributing the services to different business computer. All businesses have different needs. A Website was developed for communication between Client and Administrator.
